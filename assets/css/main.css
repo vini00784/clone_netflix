@@ -37,4 +37,9 @@ main .welcome-container .welcome-buttons .vai-corinthians {
     justify-content: center;
     gap: 8px;
     cursor: pointer;
+    transition: all 0.7s;
+}
+
+main .welcome-container .welcome-buttons .vai-corinthians:hover {
+    transform: scale(1.05);
 }
