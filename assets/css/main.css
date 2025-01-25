@@ -1,0 +1,39 @@
+main {
+    padding: 0 68px;
+    height: fit-content;
+}
+
+main .welcome-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+main .welcome-container .welcome-title {
+    width: 400px;
+    /* position: absolute; */
+    font-size: 3rem;
+    margin-top: 85px;
+}
+
+main .welcome-container .welcome-buttons {
+    display: flex;
+    align-items: center;
+}
+
+main .welcome-container .welcome-buttons .vai-corinthians {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    width: 170px;
+    padding: 10px 5px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

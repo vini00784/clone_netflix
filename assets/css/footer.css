@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .social-media-container ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer-container .social-media-container ul li a i {
+    font-size: 1.5rem;
+}

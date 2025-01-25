@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+header .primary-navigation {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+header .primary-navigation .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header .primary-navigation nav ul {
+    display: flex;
+    gap: 25px;
+    /* margin: auto; */
+}
+
+header .secondary-navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .secondary-navigation .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
