@@ -17,3 +17,40 @@ footer .footer-container .social-media-container ul {
 footer .footer-container .social-media-container ul li a i {
     font-size: 1.5rem;
 }
+
+footer .footer-container .footer-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 12px;
+}
+
+footer .footer-container .footer-grid-container .footer-grid-item {
+    display: flex;
+    color: #808080;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+footer .footer-container .footer-grid-container .footer-grid-item:hover {
+    text-decoration: underline;
+}
+
+footer .footer-container .service-code-button {
+    cursor: pointer;
+    border: solid 1px #808080;
+    color: #808080;
+    padding: 5.5px 9px;
+    width: fit-content;
+}
+
+footer .footer-container .service-code-button:hover {
+    color: #fff;
+}
+
+footer .footer-container .copyright {
+    color: #808080;
+    font-size: 0.688rem;
+    margin-top: 20px;
+}
