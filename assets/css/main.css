@@ -1,20 +1,21 @@
 main {
     padding: 0 68px;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 main .welcome-container {
     display: flex;
     flex-direction: column;
+    padding: 85px 0px;
     height: 100%;
     gap: 20px;
 }
 
 main .welcome-container .welcome-title {
     width: 400px;
-    /* position: absolute; */
     font-size: 3rem;
-    margin-top: 85px;
 }
 
 main .welcome-container .welcome-buttons {
@@ -42,4 +43,43 @@ main .welcome-container .welcome-buttons .vai-corinthians {
 
 main .welcome-container .welcome-buttons .vai-corinthians:hover {
     transform: scale(1.05);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-title {
+    font-size: 1.25rem;
+}
+
+.carousel-item {
+    margin-top: 15px;
+}
+
+.carousel-item .carousel-item-container {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-item img {
+    transition: all 0.7s;
+}
+
+.player-img, .idol-img, .rival-img {
+    height: 180px;
+    width: 180px;
+}
+
+.title-img {
+    height: 140px;
+    width: 250px;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
 }
