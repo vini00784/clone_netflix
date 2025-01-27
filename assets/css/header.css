@@ -22,6 +22,14 @@ header .primary-navigation nav ul {
     margin: auto;
 }
 
+header .primary-navigation nav ul li a {
+    transition: all 0.7s;
+}
+
+header .primary-navigation nav ul li a:hover {
+    color: #b6a9a9;
+}
+
 header .secondary-navigation {
     display: flex;
     align-items: center;
