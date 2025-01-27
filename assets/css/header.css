@@ -19,7 +19,7 @@ header .primary-navigation .title {
 header .primary-navigation nav ul {
     display: flex;
     gap: 25px;
-    /* margin: auto; */
+    margin: auto;
 }
 
 header .secondary-navigation {
